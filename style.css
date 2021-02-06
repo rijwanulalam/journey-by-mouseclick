@@ -1,0 +1,26 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.country{
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+}
+.country-name{
+    color: indianred;
+}
+button{
+    margin-bottom: 20px;
+}
+#country-detail{
+    text-align: center;
+}
+#country-detail img{
+    width: 300px;
+    display: flex;
+    margin: 10px auto;
+}
